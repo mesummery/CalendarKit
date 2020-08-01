@@ -9,7 +9,6 @@ import Foundation
 
 public protocol DayViewControllerProtocol {
     var dayView: DayView { get }
-    var calendar: Calendar { get }
 }
 
 public extension DayViewControllerProtocol where Self: UIViewController {

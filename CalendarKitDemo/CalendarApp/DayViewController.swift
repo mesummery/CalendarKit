@@ -18,12 +18,6 @@ final class DayViewController: UIViewController, DayViewControllerProtocol {
         return view
     }()
 
-    let calendar: Calendar = {
-        var customCalender = Calendar(identifier: .gregorian)
-        customCalender.timeZone = TimeZone.current
-        return customCalender
-    }()
-
     override func loadView() {
         super.loadView()
         view = dayView
