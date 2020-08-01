@@ -2,7 +2,7 @@ import UIKit
 import CalendarKit
 import DateToolsSwift
 
-class CustomCalendarExampleController: DayViewController, DatePickerControllerDelegate {
+class CustomCalendarExampleController: CalendarKit.DayViewController, DatePickerControllerDelegate {
   
   var data = [["Breakfast at Tiffany's",
                "New York, 5th avenue"],
