@@ -99,7 +99,7 @@ public final class DayHeaderView: UIView, DaySelectorDelegate, DayViewStateUpdat
                                   size: CGSize(width: bounds.width, height: daySymbolsViewHeight))
     pagingViewController.view?.frame = CGRect(origin: CGPoint(x: 0, y: daySymbolsViewHeight),
                                               size: CGSize(width: bounds.width, height: pagingScrollViewHeight))
-    swipeLabelView.frame = CGRect(origin: CGPoint(x: 0, y: bounds.height - 10 - swipeLabelViewHeight),
+    swipeLabelView.frame = CGRect(origin: CGPoint(x: 0, y: bounds.height - swipeLabelViewHeight),
                                   size: CGSize(width: bounds.width, height: swipeLabelViewHeight))
   }
 
